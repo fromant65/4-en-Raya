@@ -1,0 +1,24 @@
+.container-tablero{
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    grid-template-rows: repeat(5, 60px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 30px
+}
+
+.casilla{
+    display: inline;
+    outline: 1px solid black;
+    width: 60px;
+    height: 60px;
+    background-color: #ffe9cf;
+}
+
+.casilla[ocupada='1']{
+    background-color: blue;
+}
+
+.casilla[ocupada='2']{
+    background-color: blue;
+}
