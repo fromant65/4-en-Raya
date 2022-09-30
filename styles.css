@@ -17,6 +17,9 @@ h1,h2{
 
 .container-tablero{
     border: 3px solid rgb(255, 255, 255);
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 15px;
     display: grid;
     grid-template-columns: repeat(7, 60px);
     grid-template-rows: repeat(5, 60px);
