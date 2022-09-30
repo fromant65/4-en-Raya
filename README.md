@@ -17,5 +17,9 @@ En estos momentos el programa no muestra ninguna leyenda cuando el tablero está
 Eventualmente incluiré la opción de multijugador y subiré el proyecto a una página web específica donde uno pueda acceder y buscar una partida para jugar con alguien más, ya sea una persona aleatoria o un amigo mediante una clave específica.
 ## IA
 Por supuesto, el proyecto deberá tener tambien una opción tambien para jugar contra la computadora.
+## Contador de partidas ganadas por jugador y reset
+Una vez abierta la página, sería interesante ver cuántas partidas ganó cada jugador, por supuesto con la posibilidad de jugar múltiples partidas con un boton de reset cada vez que termine una
+## Tablero dinámico 
+En estos momentos el tablero es de 5*7, pero sería interesante que se puedan elegir múltiples tamaños, tamaños custom, o hasta tamaños infinitos (en este último caso las piezas no caerían sino que se quedarían en la casilla clickeada, y el tablero se podría expandir todo lo que los jugadores deseen)
 ## Y muchas otras más
 A medida que surjan nuevas ideas las iré agregando a la cola de features que tendrá este proyecto.
