@@ -1,0 +1,29 @@
+{
+  "name": "4_en_linea",
+  "version": "1.0.0",
+  "description": "Este es un proyecto simple que intenta simular el juego de 4 en raya (o 4 en línea) en un entorno de un sitio web, hecho con HTML, CSS Y JavaScript\r # Cómo ejecutar el proyecto\r Para ejecutar el proyecto y poder jugar, es tan simple como clonar el repositorio en tu ordenador y abrir el archivo **index.html** en un navegador\r ## Cómo jugar\r Una vez que abrimos la página, veremos un tablero de 5*7 casillas y un mensaje que indica el turno del jugador que corresponde\r Para colocar una pieza, se debe hacer click en una casilla del tablero. Entonces la pieza caerá hasta el fondo de la columna de la casilla donde se hizo click (es decir, la ultima casilla no ocupada de arriba hacia abajo). El primer jugador en colocar 4 piezas consecutivas del mismo color (en horizontal, vertical o diagonal) será el ganador. Cuando un jugador gane, se mostrará una leyenda en pantalla que lo indique",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fromant65/4-en-Raya.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fromant65/4-en-Raya/issues"
+  },
+  "homepage": "https://github.com/fromant65/4-en-Raya#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
